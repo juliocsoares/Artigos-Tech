@@ -1,0 +1,36 @@
+.fotonoticia {
+    width: 50vw;
+    border-radius: 50px;
+    background-color: aqua;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.abacompleta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1100px) {
+    .fotonoticia {
+        width: 70vw;
+        border-radius: 50px;
+        background-color: aqua;
+    }
+    .titulo {
+        text-align: center;
+        font-size: 25px;
+    }
+}
